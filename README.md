@@ -27,8 +27,8 @@ Before you can get started, make sure you have the following:
     ```
     (Replace `your_script_name.py` with the actual name of your Python file.)
 3.  **Authentication:** The first time you run the script, a browser window will open, prompting you to authenticate your Google account. Follow the on-screen instructions to grant the necessary permissions. This creates a `token.json` file, so you won't have to re-authenticate every time you run it.
-4.  **Enter your Google Drive Folder ID:** The script will then ask you to input the ID of the Google Drive folder you want to scan. You can find this ID in the URL when you're viewing the folder in your web browser (it's the long string of characters after `/folders/`).
-5.  **Get your Excel file!** Once the script finishes, it will generate an Excel file (e.g., `google_drive_files.xlsx`) in the same directory. This file will contain two columns: "File Name" and "File Link," ready for all your data adventures!
+4.  **Enter your Google Drive Folder ID:** The script will then ask you to input the name of the Google Drive folder you want to scan. 
+5.  **Get your Excel file!** Once the script finishes, it will generate an Excel file (e.g., `google_drive_files.xlsx`) in the same directory. This file will contain three columns: "Folder Name", "File Name" and "File Link," or you may change it to get other metadata.
 
 ---
 
